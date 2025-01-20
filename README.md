@@ -63,42 +63,6 @@ The script will:
    - Saving updated configuration
 5. Display the newly generated device IDs upon completion
 
-### Output Example
-
-The tool provides rich, color-coded output with progress indicators:
-
-```
-╭─── 🔧 Windsurf Reset Tool ────╮
-│ This tool will reset your     │
-│ Windsurf device IDs and       │
-│ create a backup of your       │
-│ existing configuration.       │
-╰────────────────────────────────╯
-
-⠋ 🔍 Locating storage file...
-✓ Storage file located
-⠋ 📁 Creating directories...
-✓ Directories ready
-⠋ 💾 Creating backup...
-✓ Backup created
-⠋ 📖 Loading configuration...
-✓ Configuration loaded
-⠋ 🔄 Generating new device IDs...
-✓ New device IDs generated
-⠋ 💾 Saving configuration...
-✓ Configuration saved
-
-🎉 Device IDs have been successfully reset!
-
-╭─── New Device IDs ───╮
-│ {                    │
-│   "telemetry.machineId": "...", │
-│   "telemetry.macMachineId": "...", │
-│   "telemetry.devDeviceId": "..." │
-│ }                    │
-╰────────────────────╯
-```
-
 ### Error Handling
 
 The script includes comprehensive error handling for common scenarios:
