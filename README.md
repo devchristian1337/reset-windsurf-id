@@ -16,6 +16,10 @@ A Python utility script that resets device IDs in Windsurf's configuration file 
 ## 📋 Requirements
 
 - Python 3.6 or higher
+  - Download Python:
+    - Windows 64-bit: [Python 3.13.1 (64-bit)](https://www.python.org/ftp/python/3.13.1/python-3.13.1-amd64.exe)
+    - Windows 32-bit: [Python 3.13.1 (32-bit)](https://www.python.org/ftp/python/3.13.1/python-3.13.1.exe)
+    - macOS: [Python 3.13.1](https://www.python.org/ftp/python/3.13.1/python-3.13.1-macos11.pkg)
 - Required packages (installed automatically via requirements.txt):
   - rich (13.6.0 or higher) - Beautiful terminal output and progress indicators
   - typing-extensions (4.8.0 or higher) - Enhanced type hints support
