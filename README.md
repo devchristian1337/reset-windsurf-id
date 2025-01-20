@@ -1,6 +1,6 @@
 # 🌊 Windsurf Trial Reset Tool
 
-![Command Line Interface](https://iili.io/2i2i8gI.png)
+![Command Line Interface](https://iili.io/2i3Id1j.png)
 
 A Python utility script that resets device IDs in Windsurf's configuration file by generating new random identifiers. This tool is useful for managing Windsurf installations and resetting trial periods.
 
