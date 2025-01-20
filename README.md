@@ -1,8 +1,8 @@
-# Windsurf Trial Reset Tool
+# 🌊 Windsurf Trial Reset Tool
 
 A Python utility script that resets device IDs in Windsurf's configuration file by generating new random identifiers. This tool is useful for managing Windsurf installations and resetting trial periods.
 
-## Features
+## ✨ Features
 
 - Modern and beautiful terminal UI with progress indicators
 - Color-coded output for better readability
@@ -13,14 +13,14 @@ A Python utility script that resets device IDs in Windsurf's configuration file 
 - Provides detailed logging for troubleshooting
 - Handles errors gracefully with informative messages
 
-## Requirements
+## 📋 Requirements
 
 - Python 3.6 or higher
 - Required packages (installed automatically via requirements.txt):
   - rich (13.6.0 or higher) - Beautiful terminal output and progress indicators
   - typing-extensions (4.8.0 or higher) - Enhanced type hints support
 
-## Installation
+## 🚀 Installation
 
 1. Clone or download this repository:
 ```bash
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 chmod +x reset.py
 ```
 
-## Usage
+## 🛠️ Usage
 
 Run the script directly from the command line:
 
@@ -63,7 +63,7 @@ The script will:
    - Saving updated configuration
 5. Display the newly generated device IDs upon completion
 
-### Error Handling
+### ⚠️ Error Handling
 
 The script includes comprehensive error handling for common scenarios:
 - Unsupported operating systems
@@ -77,7 +77,7 @@ If any error occurs, the script will:
 2. Create a backup if possible
 3. Exit with a non-zero status code
 
-## Configuration File Locations
+## 📂 Configuration File Locations
 
 The script automatically manages configuration files in the following locations:
 
@@ -85,27 +85,27 @@ The script automatically manages configuration files in the following locations:
 - macOS: `~/Library/Application Support/Windsurf/User/globalStorage/storage.json`
 - Linux: `~/.config/Windsurf/User/globalStorage/storage.json`
 
-## Backup System
+## 💾 Backup System
 
 Before making any changes, the script automatically creates a backup of your existing configuration file with a timestamp:
 ```
 storage.json.backup_YYYYMMDD_HHMMSS
 ```
 
-## Security
+## 🔒 Security
 
 - Uses cryptographically secure random number generation (`os.urandom`)
 - Generates UUIDs for device identification
 - Maintains existing file permissions
 
-## Contributing
+## 👥 Contributing
 
 Feel free to submit issues and enhancement requests through the repository's issue tracker.
 
-## Author
+## 👨‍💻 Author
 
 @devchristian1337
 
-## Created
+## 📅 Created
 
 January 20, 2025
